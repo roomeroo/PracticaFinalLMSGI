@@ -56,10 +56,6 @@ a.actual {
     background-color: rgb(79, 180, 79);
 }
 
-a:visited {
-    color: purple;
-}
-
 main div{
     display: flex;
     justify-content: space-between;
