@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header img {
+    max-height: 120px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(154, 241, 154);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+a:hover {
+    background-color: rgb(79, 180, 79);
+}
+
+a.actual {
+    background-color: rgb(79, 180, 79);
+}
