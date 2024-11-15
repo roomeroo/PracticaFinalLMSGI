@@ -51,3 +51,28 @@ a:hover {
 a.actual {
     background-color: rgb(79, 180, 79);
 }
+
+footer {
+    background-color: rgb(154, 241, 154);   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer p {
+    padding: 10px;
+}
+
+footer img {
+    margin-right: 15px;
+}
+
+footer img:hover {
+    height: 50px;
+    width: 50px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
