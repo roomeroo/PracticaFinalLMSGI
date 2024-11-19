@@ -82,7 +82,7 @@ button {
     height: 50px;
     width: 200px;
     font-size: 20px;
-    background-color: #4A90E2;
+    background: linear-gradient(to right, rgb(79, 180, 79), rgb(58, 167, 201) );
     box-shadow: 3px 5px 5px gray;
 }
 
