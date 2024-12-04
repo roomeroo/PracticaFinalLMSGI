@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Refugio de mascotas</title>
         <link rel = "icon" href = "src/favicon.png" type = "favicon">
-        <link rel=  "stylesheet" href = "CSS/indexStylesheet.css">
+        <link rel=  "stylesheet" href = "CSS/involucrateStylesheet.css">
     </head>
 
     <body>
@@ -27,7 +27,30 @@
         </div>
 
         <main>
-
+            <div class = "row">    
+                <form>
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id = "nombre" name="nombre" placeholder="Su nombre"><br><br>
+                        <label for="correo">Correo electrónico* :</label>
+                        <input type="email" id= "correo" name = "correo" placeholder="nombre@gmail.com" required><br><br>
+                        <label for="telefono">Telefono:</label>
+                        <input type="telefono" id="telefono" name="telefono" placeholder="número de telefono" pattern="[0-9]{9}"><br><br>
+                        <label for="descripcion">Breve descripción de su caso:</label><br>
+                        <textarea id="descripcion" name="descripcion" placeholder="Describa su caso..."></textarea><br><br>
+                        <label for="archivo">Adjunte un archivo si es necesario: </label>
+                        <input type="file" id="archivo" name="archivo">
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class = "column">
+                    <h2 class = "titulo">Como adoptar a un perro</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hrYScZhMeXU?si=_dTrHwabr1PEa6H9" title="Como adoptar un perro 
+                    player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                    web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
         </main>
 
         <footer>

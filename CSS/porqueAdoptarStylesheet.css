@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Atma';
+    src: url('../src/Atma-Medium.ttf') format('truetype');
+}
+
 html, body {
     height: 100%;
     margin: 0px;
@@ -16,6 +21,10 @@ main {
     flex: 1;
     height: 100%;
     background-color: #FAF3E0;
+}
+
+h2 {
+    font-family: 'Atma';
 }
 
 .contenedor {
@@ -98,12 +107,16 @@ nav ul li a{
     margin-right: 20px;
 }
 
-a:hover {
+li a:hover {
     background-color: rgb(79, 180, 79);
 }
 
 a.actual {
     background-color: rgb(79, 180, 79);
+}
+
+ol {
+    font-size: 18px;
 }
 
 footer {
