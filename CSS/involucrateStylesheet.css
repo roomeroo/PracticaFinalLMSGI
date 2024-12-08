@@ -23,6 +23,12 @@ body {
     padding: 50px;
 }
 
+audio{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
 .cloumn {
     display: flex;
     flex-direction: column;

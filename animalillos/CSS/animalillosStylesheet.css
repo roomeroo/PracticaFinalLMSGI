@@ -8,6 +8,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-bottom: 40px;
 }
 
 body {
@@ -63,6 +64,11 @@ main {
     max-width: 600px;
     display:flex;
     gap: 13px; 
+}
+
+.contenedor img:hover{
+    width: 180px;
+    height: 180px;
 }
 
 .contenedor2 {

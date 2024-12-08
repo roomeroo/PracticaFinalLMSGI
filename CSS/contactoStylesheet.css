@@ -51,7 +51,13 @@ nav ul li a{
     justify-content: space-between;
 }
 
-main a:hover {
+.column{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a:hover {
     background-color: rgb(79, 180, 79);
 }
 
@@ -70,6 +76,7 @@ iframe {
 }
 
 table {
+    margin-left: 50px;
     border-collapse: collapse;
     width: 450px;
     max-height:800px;
@@ -78,6 +85,10 @@ table {
     margin-right: 250px;
     box-shadow: 0px 0px 7px gray;
     border-radius: 5px;
+}
+
+.column a:active{
+    color : red;
 }
 
 table caption {
